@@ -1,0 +1,11 @@
+{
+  "uid": "trelloEvents",
+  "append": true,
+  "watch": true,
+  "script": "index.js",
+  "sourceDir": "./",
+  "logFile": "./logs/logFile.txt",
+  "errFile": "./logs/logFile.txt",
+  "wodkingDir": "./",
+  "path": "./"
+}

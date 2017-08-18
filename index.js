@@ -69,6 +69,7 @@ bot.on('messageCreate', msg => {
       break;
   }
 });
+
 trello.on('updateCard', (event, data) => {
   if(started === true && !!event.data.listAfter && config.verifiedListIDs.indexOf(event.data.listAfter.id) > -1) {
     setTimeout(function () {
